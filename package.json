@@ -24,5 +24,8 @@
   "homepage": "https://github.com/jspm5999/C11VAA#readme",
   "dependencies": {
     "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
   }
 }
