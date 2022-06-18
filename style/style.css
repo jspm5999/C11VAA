@@ -1,0 +1,15 @@
+footer {
+  text-align: center;
+}
+.texto {
+  color: blue;
+  background-color: aquamarine;
+}
+.nombreProducto {
+  background-color: brown;
+}
+
+header {
+  background-color: yellow;
+  width: 100%;
+}
