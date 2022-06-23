@@ -1,15 +1,14 @@
-footer {
-  text-align: center;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
-.texto {
-  color: blue;
-  background-color: aquamarine;
-}
-.nombreProducto {
-  background-color: brown;
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #ebebeb;
 }
 
 header {
-  background-color: yellow;
-  width: 100%;
+  background-color: #eac926;
 }
