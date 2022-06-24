@@ -17,8 +17,12 @@ header {
 header .secciones {
   font-size: 24px;
 }
+
 main {
   font-family: "Roboto Mono", monospace;
   background-color: #ebebeb;
   color: black;
+}
+footer {
+  text-align: center;
 }
