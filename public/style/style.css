@@ -15,6 +15,7 @@
 header {
   font-family: "Roboto Mono", monospace;
   background-color: var(--Amarillo);
+  width: 90%;
 }
 header .secciones {
   font-size: 24px;
@@ -77,4 +78,5 @@ footer {
   font-family: "Roboto Mono", monospace;
   text-align: center;
   background-color: var(--Grisclaro);
+  width: 90%;
 }
