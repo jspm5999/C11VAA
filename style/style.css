@@ -7,8 +7,10 @@
 body {
   font-family: "Roboto", sans-serif;
   background-color: #ebebeb;
+  color: red;
 }
 
 header {
   background-color: #eac926;
+  color: red;
 }
