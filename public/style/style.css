@@ -3,13 +3,22 @@
   padding: 0px;
   box-sizing: border-box;
 }
-
+:root {
+  --Amarillo: #eac926;
+  --Azul: #03264c;
+  --Celeste: #1259c3;
+  --Grisoscuro: #666;
+  --Grisclaro: #ebebeb;
+  --Verde: #39b54a;
+}
+header {
+  font-family: "Roboto Mono", monospace;
+}
+header .secciones {
+  font-size: 24px;
+}
 main {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Mono", monospace;
   background-color: #ebebeb;
   color: black;
-}
-
-header {
- 
 }
