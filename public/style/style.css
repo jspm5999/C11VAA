@@ -10,15 +10,29 @@
   --Grisoscuro: #666;
   --Grisclaro: #ebebeb;
   --Verde: #39b54a;
+  --Blanco: #fff;
 }
 header {
   font-family: "Roboto Mono", monospace;
   background-color: var(--Amarillo);
+  width: 90%;
 }
 h2 {
   font-size: 24px;
 }
-
+header .imagenLogo {
+  width: 40%;
+}
+header .menuHamburguesa {
+  background-color: #0044aa;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 20px;
+  height: 40px;
+  margin: 10px 0px 20px 0px;
+  padding: 10px;
+  width: 40px;
+}
 main {
   font-family: "Roboto Mono", monospace;
   background-color: var(--Grisclaro);
@@ -26,7 +40,43 @@ main {
   width: 90%;
   text-align: center;
 }
+main .texto {
+  font-size: 18px;
+  width: 30%;
+}
+main .textoOff {
+  color: var(--Verde);
+  width: 70%;
+}
+main .carritoIcon{
+  display: block;
+  font-size: 16px;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #39b54a;
+  background-color: #FFF;
+  border-radius: 50%;
+  position: absolute;
+  right: 20px;
+  top: -15px;
+}
+
+main .miniSeccion {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  border-top: 1px solid var(--Grisclaro);
+  position: relative;
+  padding: 15px;
+}
+main .imagenes {
+  width: 90%;
+}
 footer {
+  font-family: "Roboto Mono", monospace;
   text-align: center;
   background-color: var(--Grisclaro);
+  width: 90%;
 }
