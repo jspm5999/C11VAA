@@ -15,7 +15,7 @@ header {
   font-family: "Roboto Mono", monospace;
   background-color: var(--Amarillo);
 }
-header .secciones {
+h2 {
   font-size: 24px;
 }
 
