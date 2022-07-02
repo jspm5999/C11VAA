@@ -15,7 +15,7 @@
 header {
   font-family: "Roboto Mono", monospace;
   background-color: var(--Amarillo);
-  width: 90%;
+  width: 100%;
 }
 h2 {
   font-size: 24px;
@@ -43,7 +43,6 @@ header .boxSuperior {
 header .boxSuperiorDos {
   display: flex;
   align-items: center;
-  width: 100%;
   text-align: center;
   margin-top: 10px;
   margin-left: 100px;
@@ -78,7 +77,7 @@ main {
   font-family: "Roboto Mono", monospace;
   background-color: var(--Grisclaro);
   color: var(--Azul);
-  width: 90%;
+  width: 100%;
   text-align: center;
 }
 
@@ -94,16 +93,15 @@ main .textoOff {
   color: var(--Verde);
   width: 70%;
 }
-main section .seccionProductos{
+main .seccionProductos {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: flex-start;
 }
-main section article{
-    background-color: #fff;
-    margin: 10px 0px;
+main .seccionProductos .seccionProductosImg {
+  position: relative;
+}
+main section article {
+  background-color: #fff;
+  margin: 10px 0px;
 }
 
 main .carritoIcon {
@@ -116,8 +114,14 @@ main .carritoIcon {
   background-color: #fff;
   border-radius: 50%;
   position: absolute;
-  right: 20px;
-  top: -15px;
+  right: 10px;
+  bottom: 10px;
+  transition: all 0.5s ease-in-out;
+}
+
+main .carritoIcon:hover {
+  color: #39b54a;
+  transform: rotate(-90deg);
 }
 
 main .miniSeccion {
@@ -146,7 +150,6 @@ footer {
   main section article {
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
     width: 45%;
-   
   }
 
   main section div.secciones {
