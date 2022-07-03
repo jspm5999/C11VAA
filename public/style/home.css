@@ -1,0 +1,89 @@
+@import url(./style.css);
+main {
+  font-family: "Roboto Mono", monospace;
+  background-color: var(--Grisclaro);
+  color: var(--Azul);
+  width: 100%;
+  text-align: center;
+}
+
+main img {
+  width: 100%;
+}
+
+main .texto {
+  font-size: 18px;
+}
+main .textoOff {
+  color: var(--Verde);
+}
+main .seccionProductos {
+  display: flex;
+  justify-content: space-around;
+}
+main .seccionProductos article {
+  box-shadow: 0px 0px 10px rgb(100 100 100);
+  width: 22%;
+  background-color: var(--Blanco);
+}
+main .seccionProductos .seccionProductosImg {
+  position: relative;
+}
+main section article {
+  background-color: #fff;
+  margin: 10px 0px;
+}
+
+main .carritoIcon {
+  display: block;
+  font-size: 16px;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #39b54a;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  transition: all 0.5s ease-in-out;
+}
+
+main .carritoIcon:hover {
+  color: #39b54a;
+  transform: rotate(-90deg);
+  text-align: center;
+}
+
+main .imagenes {
+  width: 90%;
+}
+
+@media (max-width: 769px) {
+  main section div.secciones article {
+    width: 22%;
+  }
+}
+
+@media (max-width: 361px) {
+  main section article .texto {
+    display: block;
+  }
+
+  main section article {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    width: 45%;
+  }
+
+  main section div.secciones {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  main section div.secciones article {
+    width: 45%;
+  }
+}

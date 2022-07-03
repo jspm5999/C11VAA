@@ -55,7 +55,7 @@ header .boxSuperiorDos {
 }
 
 header .texto {
-  font-size: 12px;
+  font-size: 16px;
 }
 header .navegador {
   font-size: 12px;
@@ -78,66 +78,10 @@ header .navegador ul li {
   color: #000;
   font-size: 14px;
   font-weight: bold;
+  margin-right: 15px;
 }
-main {
-  font-family: "Roboto Mono", monospace;
-  background-color: var(--Grisclaro);
-  color: var(--Azul);
-  width: 100%;
-  text-align: center;
-}
-
-main img {
-  width: 100%;
-}
-
-main .texto {
-  font-size: 18px;
-  width: 30%;
-}
-main .textoOff {
-  color: var(--Verde);
-  width: 70%;
-}
-main .seccionProductos {
-  display: flex;
-  justify-content: space-around;
-}
-main .seccionProductos article {
-  box-shadow: 0px 0px 10px rgb(100 100 100);
-  width: 22%;
-}
-main .seccionProductos .seccionProductosImg {
-  position: relative;
-}
-main section article {
-  background-color: #fff;
-  margin: 10px 0px;
-}
-
-main .carritoIcon {
-  display: block;
-  font-size: 16px;
-  padding: 5px;
-  width: 30px;
-  height: 30px;
-  border: 1px solid #39b54a;
-  background-color: #fff;
-  border-radius: 50%;
-  position: absolute;
-  right: 10px;
-  bottom: 10px;
-  transition: all 0.5s ease-in-out;
-}
-
-main .carritoIcon:hover {
-  color: #39b54a;
-  transform: rotate(-90deg);
-  text-align: center;
-}
-
-main .imagenes {
-  width: 90%;
+header .menuHamburguesa {
+  display: none;
 }
 footer {
   font-family: "Roboto Mono", monospace;
@@ -155,28 +99,19 @@ footer .textoFooter {
   margin-top: 15px;
   margin-bottom: 15px;
 }
-@media (min-width: 361px) {
-  main section article .texto {
-    display: block;
-  }
 
-  main section article {
-    box-shadow: 0px 0px 10px rgb(100, 100, 100);
-    width: 45%;
+@media (max-width: 777px) {
+  header .navegador {
+    justify-content: center;
   }
-
-  main section div.secciones {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: flex-start;
+}
+@media (max-width: 769px) {
+  header .navegador {
+    justify-content: center;
   }
-
-  main section div.secciones article {
-    width: 45%;
+  header .navegador ul {
+    display: none;
   }
-
   header .menuHamburguesa {
     background-color: #0044aa;
     border-radius: 5px;
@@ -186,11 +121,8 @@ footer .textoFooter {
     margin: 10px 0px 20px 0px;
     padding: 10px;
     width: 40px;
-  }
-}
-
-@media (min-width: 769px) {
-  main section div.secciones article {
-    width: 22%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
